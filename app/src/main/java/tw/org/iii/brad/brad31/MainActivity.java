@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         private LayoutInflater inflater;
 
         MyAdapter(){
-            inflater = getLayoutInflater();     //此處因MyAdapter寫成內部類別故...
+            inflater = getLayoutInflater();     //此處因MyAdapter寫成內部類別故不用在建構時指定Context(Activity)
         }
 
         @Override
